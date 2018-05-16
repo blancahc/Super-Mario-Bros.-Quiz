@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Blanca Hernandez">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Quiz,Super Mario Bros., fun, NES, Nintendo">
+    <meta name="robots" content="index, follow">
+    <title>Super Mario Bros. Quiz</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Mono" rel="stylesheet"/>
+  </head>
+  
+  <body>
+    <header class="js-banner banner" role="banner">
+        <div class="questionScore question"><img class="bannerImg" src="https://files.gamebanana.com/img/ico/sprays/mario_box_by_n1co_thumb.jpg" alt="question mark"> Question:<span class="js-showQuestionNumber"> 0</span>/10
+          </div>
+          <div class="questionScore score"><img class="bannerImg" src="https://thumbs.gfycat.com/ImmaterialCandidBooby-max-1mb.gif" alt="coin"> Score: <span class="js-showScore">0</span>
+          </div>
+      </header>
+    <main role="main">
+    <section class="textContainer js-startQuiz">
+        <h1>Can you Master this Super Mario Bros. Quiz?
+        </h1> 
+        <img class="containerImg" src="https://www.retrozap.com/wp-content/uploads/2015/07/The-Origin-of-the-Super-Mario-Bros-Underground-Theme-World-1-2.jpg" alt="Super Mario Bros. game cover">
+        <button class="js-startButton" type="submit">Start</button>
+      </section>
+      
+      <section class="js-questionAnswers hideQuestionAnswers"></section>
+      </main>
+    
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

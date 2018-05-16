@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url(https://images2.alphacoders.com/451/45162.jpg) no-repeat center fixed;
+  background-size: cover;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.banner {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  font-size: 90%;
+}
+ .questionScore {
+  height: auto;
+  margin-bottom: 10px;
+  opacity: .90;
+  color: black;
+  padding: 7px;
+  width: 100%;
+  color:white;
+  } 
+  
+.bannerImg{
+  width: 10%;
+  height: auto;
+}
+
+.textContainer {
+  padding: 20px;
+  background-color: #D2691E;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 90%;
+  height: auto;
+  color: white;
+  font-size: 100%;
+  opacity: .95;
+  border-radius: 10px;
+}
+
+.containerImg {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+button {
+background: #0000ff;
+border: none;
+color: white;
+height: auto;
+width: 200px;
+font-size: 120%;
+margin-top: 5%;
+}
+
+legend {
+  text-align: left;
+  color: black;
+  font-size: 90%;
+}
+
+button:hover {
+   background: black;
+   color: #ccc;
+   }
+   
+fieldset {
+  border: none;
+}
+fieldset label {
+  display: block;
+  text-align: left;
+}
+
+label:hover {
+  color: black;
+}
+
+.hideQuestionAnswers {
+ display: none; 
+}
+
+/* Smartphones (small to medium) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 375px) {
+/* Styles */
+.textContainer {
+  font-size: 90%;
+}
+
+.containerImg {
+  width: 230px;
+  height: 230px;
+}
+}
+/* Smartphones (larger or landscape) ----------- */
+@media only screen and (min-device-width : 376px) and (max-device-width : 480px) {
+/* Styles */
+.textContainer {
+  font-size: 100%;
+}
+
+.containerImg {
+  width: 100%;
+}
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .questionScore {
+    display: inline-block;
+    width: 45%;
+    font-size: 90%;
+   }
+  .banner {
+    width: 90%;
+    font-size: 100%;
+    text-align: center;
+      }
+  .containerImg {
+    width: 80%;
+  }
+  .textContainer {
+    width: 80%;
+    font-size: 100%
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+ .questionScore {
+    display: inline-block;
+    width: 45%;
+    font-size: 90%;
+   }
+  .banner {
+    width: 90%;
+    font-size: 100%;
+    text-align: center;
+      }
+  .bannerImg {
+  width: 5%;
+  height: auto;
+}
+
+  .containerImg {
+    width: 45%;
+  }
+  .textContainer {
+    width: 80%;
+    font-size: 100%
+  }
+}
+
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+ .questionScore {
+    display: inline-block;
+    width: 35%;
+    font-size: 100%;
+   }
+  .banner {
+    width: 80%;
+    font-size: 100%;
+    text-align: center;
+      }
+  .bannerImg {
+  width: 5%;
+  height: auto;
+}
+
+  .containerImg {
+    width: 45%;
+  }
+  .textContainer {
+    width: 60%;
+    font-size: 110%
+  }
+}
